@@ -1,0 +1,277 @@
+_nature=[
+    {
+        "name": "berries",
+        "frames": [
+            {
+                "x":0,
+                "y":128,
+                "width": 64,
+                "height": 64,
+                "offsetX": 35,
+                "offsetY": 55,
+                "hitbox": {
+                    "x": 12,
+                    "y": 10,
+                    "width": 24,
+                    "height": 20
+                },
+                "clickable": {
+                    "x": 20,
+                    "y": 45,
+                    "width": 38,
+                    "height": 50
+                }
+            },
+            {
+                "x":0,
+                "y":64,
+                "width": 64,
+                "height": 64,
+                "offsetX": 35,
+                "offsetY": 55,
+                "hitbox": {
+                    "x": 12,
+                    "y": 10,
+                    "width": 24,
+                    "height": 20
+                },
+                "clickable": {
+                    "x": 20,
+                    "y": 45,
+                    "width": 38,
+                    "height": 50
+                }
+            },
+            {
+                "x":0,
+                "y":128,
+                "width": 64,
+                "height": 64,
+                "offsetX": 35,
+                "offsetY": 55,
+                "hitbox": {
+                    "x": 12,
+                    "y": 10,
+                    "width": 24,
+                    "height": 20
+                },
+                "clickable": {
+                    "x": 20,
+                    "y": 45,
+                    "width": 38,
+                    "height": 50
+                }
+            },
+            {
+                "x":0,
+                "y":192,
+                "width": 64,
+                "height": 64,
+                "offsetX": 35,
+                "offsetY": 55,
+                "hitbox": {
+                    "x": 12,
+                    "y": 10,
+                    "width": 24,
+                    "height": 20
+                },
+                "clickable": {
+                    "x": 20,
+                    "y": 45,
+                    "width": 38,
+                    "height": 50
+                }
+            },
+            {
+                "x":0,
+                "y":256,
+                "width": 64,
+                "height": 64,
+                "offsetX": 35,
+                "offsetY": 55,
+                "hitbox": {
+                    "x": 12,
+                    "y": 10,
+                    "width": 24,
+                    "height": 20
+                },
+                "clickable": {
+                    "x": 20,
+                    "y": 45,
+                    "width": 38,
+                    "height": 50
+                }
+            },
+            {
+                "x":0,
+                "y":320,
+                "width": 64,
+                "height": 64,
+                "offsetX": 35,
+                "offsetY": 55,
+                "hitbox": {
+                    "x": 12,
+                    "y": 10,
+                    "width": 24,
+                    "height": 20
+                },
+                "clickable": {
+                    "x": 20,
+                    "y": 45,
+                    "width": 38,
+                    "height": 50
+                }
+            }
+        ]
+    },
+    {
+        "name": "stone1",
+        "frames": [
+            {
+                "x":64,
+                "y":0,
+                "width": 146,
+                "height": 161,
+                "offsetX": 60,
+                "offsetY": 130,
+                "hitbox": {
+                    "x": 60,
+                    "y": 40,
+                    "width": 130,
+                    "height": 70
+                },
+                "clickable": {
+                    "x": 60,
+                    "y": 95,
+                    "width": 130,
+                    "height": 125
+                }
+            }
+        ]
+    },
+    {
+        "name": "stone2",
+        "frames": [
+            {
+                "x":64,
+                "y":161,
+                "width": 133,
+                "height": 176,
+                "offsetX": 60,
+                "offsetY": 120,
+                "hitbox": {
+                    "x": 60,
+                    "y": 40,
+                    "width": 120,
+                    "height": 90
+                },
+                "clickable": {
+                    "x": 40,
+                    "y": 100,
+                    "width": 100,
+                    "height": 150
+                }
+            }
+        ]
+    },
+    {
+        "name": "tree1",
+        "frames": [
+            {
+                "x":210,
+                "y":0,
+                "width": 85,
+                "height": 113,
+                "offsetX": 35,
+                "offsetY": 108,
+                "hitbox": {
+                    "x": 20,
+                    "y": 10,
+                    "width": 40,
+                    "height": 20
+                },
+                "clickable": {
+                    "x": 25,
+                    "y": 110,
+                    "width": 60,
+                    "height": 110
+                }
+            }
+        ]
+    },
+    {
+        "name": "tree2",
+        "frames": [
+            {
+                "x":210,
+                "y":113,
+                "width": 83,
+                "height": 114,
+                "offsetX": 38,
+                "offsetY": 114,
+                "hitbox": {
+                    "x": 20,
+                    "y": 10,
+                    "width": 40,
+                    "height": 20
+                },
+                "clickable": {
+                    "x": 25,
+                    "y": 105,
+                    "width": 50,
+                    "height": 105
+                }
+            }
+        ]
+    },
+    {
+        "name": "tree3",
+        "frames": [
+            {
+                "x":210,
+                "y":227,
+                "width": 102,
+                "height": 111,
+                "offsetX": 45,
+                "offsetY": 95,
+                "hitbox": {
+                    "x": 20,
+                    "y": 15,
+                    "width": 40,
+                    "height": 30
+                },
+                "clickable": {
+                    "x": 40,
+                    "y": 80,
+                    "width": 80,
+                    "height": 90
+                }
+            }
+        ]
+    },
+    {
+        "name": "tree4",
+        "frames": [
+            {
+                "x":210,
+                "y":338,
+                "width": 116,
+                "height": 117,
+                "offsetX": 58,
+                "offsetY": 112,
+                "hitbox": {
+                    "x": 20,
+                    "y": 10,
+                    "width": 40,
+                    "height": 20
+                },
+                "clickable": {
+                    "x": 35,
+                    "y": 110,
+                    "width": 68,
+                    "height": 110
+                }
+            }
+        ]
+    }
+]

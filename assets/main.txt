@@ -1,0 +1,52 @@
+_main=[
+    {
+        "name": "logo",
+        "frames": [
+            {
+                "x":0,
+                "y":0,
+                "width": 989,
+                "height": 279,
+                "offsetX": 495,
+                "offsetY": 0,
+                "hitbox": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                },
+                "clickable": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                }
+            }
+        ]
+    },
+    {
+        "name": "map",
+        "frames": [
+            {
+                "x":0,
+                "y":279,
+                "width": 644,
+                "height": 418,
+                "offsetX": 332,
+                "offsetY": 0,
+                "hitbox": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                },
+                "clickable": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                }
+            }
+        ]
+    }
+]

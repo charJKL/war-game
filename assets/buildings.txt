@@ -1,0 +1,128 @@
+_buildings =[
+    {
+        "name": "headquarter",
+        "frames": [
+            {
+                "x":0,
+                "y":0,
+                "width": 183,
+                "height": 324,
+                "offsetX": 108,
+                "offsetY": 255,
+                "hitbox": {
+                    "x": 105,
+                    "y": 60,
+                    "width": 180,
+                    "height": 120
+                },
+                "clickable": {
+                    "x": 105,
+                    "y": 180,
+                    "width": 180,
+                    "height": 245
+
+                }
+            }
+        ]
+    },
+    {
+        "name": "fortress",
+        "frames": [
+            {
+                "x":183,
+                "y":0,
+                "width": 391,
+                "height": 428,
+                "offsetX": 177,
+                "offsetY": 320,
+                "hitbox": {
+                    "x": 170,
+                    "y": 110,
+                    "width": 330,
+                    "height": 220
+                },
+                "clickable": {
+                    "x": 170,
+                    "y": 260,
+                    "width": 330,
+                    "height": 370
+                }
+            }
+        ]
+    },
+    {
+        "name": "house",
+        "frames": [
+            {
+                "x":574,
+                "y":0,
+                "width": 191,
+                "height": 208,
+                "offsetX": 85,
+                "offsetY": 140,
+                "hitbox": {
+                    "x": 90,
+                    "y": 50,
+                    "width": 180,
+                    "height": 110
+                },
+                "clickable": {
+                    "x": 90,
+                    "y": 90,
+                    "width": 180,
+                    "height": 150
+                }
+            }
+        ]
+    },
+    {
+        "name": "bakery",
+        "frames": [
+            {
+                "x":765,
+                "y":0,
+                "width": 217,
+                "height": 221,
+                "offsetX": 105,
+                "offsetY": 150,
+                "hitbox": {
+                    "x": 90,
+                    "y": 50,
+                    "width": 180,
+                    "height": 120
+                },
+                "clickable": {
+                    "x": 100,
+                    "y": 110,
+                    "width": 200,
+                    "height": 170
+                }
+            }
+        ]
+    },
+    {
+        "name": "mine",
+        "frames": [
+            {
+                "x":982,
+                "y":0,
+                "width": 133,
+                "height": 168,
+                "offsetX": 60,
+                "offsetY": 105,
+                "hitbox": {
+                    "x": 60,
+                    "y": 20,
+                    "width": 120,
+                    "height": 90
+                },
+                "clickable": {
+                    "x": 60,
+                    "y": 90,
+                    "width": 120,
+                    "height": 160
+                }
+            }
+        ]
+    }
+]

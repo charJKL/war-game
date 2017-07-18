@@ -1,0 +1,362 @@
+_terrain=[
+    {
+        "name": "grass",
+        "frames": [
+            {
+                "x":0,
+                "y":200,
+                "width": 100,
+                "height": 100,
+                "offsetX": 0,
+                "offsetY": 0,
+                "hitbox": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                },
+                "clickable": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                }
+            },
+            {
+                "x":0,
+                "y":0,
+                "width": 100,
+                "height": 100,
+                "offsetX": 0,
+                "offsetY": 0,
+                "hitbox": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                },
+                "clickable": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                }
+            }
+        ]
+    },
+    {
+        "name": "grass10",
+        "frames": [
+            {
+                "x":100,
+                "y":200,
+                "width": 100,
+                "height": 100,
+                "offsetX": 0,
+                "offsetY": 0,
+                "hitbox": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                },
+                "clickable": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                }
+            },
+            {
+                "x":100,
+                "y":0,
+                "width": 100,
+                "height": 100,
+                "offsetX": 0,
+                "offsetY": 0,
+                "hitbox": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                },
+                "clickable": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                }
+            }
+        ]
+    },
+    {
+        "name": "grass1",
+        "frames": [
+            {
+                "x":200,
+                "y":200,
+                "width": 100,
+                "height": 100,
+                "offsetX": 0,
+                "offsetY": 0,
+                "hitbox": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                },
+                "clickable": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                }
+            },
+            {
+                "x":200,
+                "y":0,
+                "width": 100,
+                "height": 100,
+                "offsetX": 0,
+                "offsetY": 0,
+                "hitbox": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                },
+                "clickable": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                }
+            }
+        ]
+    },
+    {
+        "name": "water",
+        "frames": [
+            {
+                "x":300,
+                "y":200,
+                "width": 100,
+                "height": 100,
+                "offsetX": 0,
+                "offsetY": 0,
+                "hitbox": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                },
+                "clickable": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                }
+            },
+            {
+                "x":300,
+                "y":0,
+                "width": 100,
+                "height": 100,
+                "offsetX": 0,
+                "offsetY": 0,
+                "hitbox": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                },
+                "clickable": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                }
+            }
+        ]
+    },
+    {
+        "name": "empty",
+        "frames": [
+            {
+                "x":0,
+                "y":300,
+                "width": 100,
+                "height": 100,
+                "offsetX": 0,
+                "offsetY": 0,
+                "hitbox": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                },
+                "clickable": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                }
+            },
+            {
+                "x":0,
+                "y":100,
+                "width": 100,
+                "height": 100,
+                "offsetX": 0,
+                "offsetY": 0,
+                "hitbox": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                },
+                "clickable": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                }
+            }
+        ]
+    },
+    {
+        "name": "dirt10",
+        "frames": [
+            {
+                "x":100,
+                "y":300,
+                "width": 100,
+                "height": 100,
+                "offsetX": 0,
+                "offsetY": 0,
+                "hitbox": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                },
+                "clickable": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                }
+            },
+            {
+                "x":100,
+                "y":100,
+                "width": 100,
+                "height": 100,
+                "offsetX": 0,
+                "offsetY": 0,
+                "hitbox": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                },
+                "clickable": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                }
+            }
+        ]
+    },
+    {
+        "name": "dirt",
+        "frames": [
+            {
+                "x":200,
+                "y":300,
+                "width": 100,
+                "height": 100,
+                "offsetX": 0,
+                "offsetY": 0,
+                "hitbox": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                },
+                "clickable": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                }
+            },
+            {
+                "x":200,
+                "y":100,
+                "width": 100,
+                "height": 100,
+                "offsetX": 0,
+                "offsetY": 0,
+                "hitbox": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                },
+                "clickable": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                }
+            }
+        ]
+    },
+    {
+        "name": "lava",
+        "frames": [
+            {
+                "x":300,
+                "y":300,
+                "width": 100,
+                "height": 100,
+                "offsetX": 0,
+                "offsetY": 0,
+                "hitbox": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                },
+                "clickable": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                }
+            },
+            {
+                "x":300,
+                "y":100,
+                "width": 100,
+                "height": 100,
+                "offsetX": 0,
+                "offsetY": 0,
+                "hitbox": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                },
+                "clickable": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                }
+            }
+        ]
+    }
+]

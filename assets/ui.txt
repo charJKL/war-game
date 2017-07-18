@@ -1,0 +1,52 @@
+_ui=[
+    {
+        "name": "resources",
+        "frames": [
+            {
+                "x":0,
+                "y":0,
+                "width": 600,
+                "height": 40,
+                "offsetX": 0,
+                "offsetY": 0,
+                "hitbox": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                },
+                "clickable": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                }
+            }
+        ]
+    },
+    {
+        "name": "bottom",
+        "frames": [
+            {
+                "x":0,
+                "y":40,
+                "width": 500,
+                "height": 96,
+                "offsetX": 0,
+                "offsetY": 0,
+                "hitbox": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                },
+                "clickable": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                }
+            }
+        ]
+    }
+]
