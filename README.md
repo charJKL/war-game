@@ -1,4 +1,3 @@
-# war-game
 <p align="center">
   <img src="./img/logo.jpg" /><br/>
 </p>
