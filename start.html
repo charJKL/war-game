@@ -88,9 +88,28 @@
 <body>
 	<div class="help">
 		<h1>Help:</h1>
-		<div>Press and hold <span class="right-button"></span> right button to move map.</div>
-		<div>Use <span class="left-button"></span> left button to select and command. You can select workers.</div>
+		<p>Press and hold <span class="right-button"></span> right button to move map.</p>
+		<p>Use <span class="left-button"></span> left button to select and command. You can select workers.</p>
+		
+		<h1>Debug:</h1>
+		<p>Some option may require map cache flush, move map for a while and cache will be flushed.</p>
+		<script>
+			$debug.entityInformation = true;
+		</script>
+		<label><input type="checkbox" autocomplete="off" onchange="(function(e){ $debug.camera = e.checked })(this)"> Show camera.</label>
+		<label><input type="checkbox" autocomplete="off" onchange="(function(e){ $debug.entityRegions = e.checked })(this)"> Show entityRegions</label>
+		<label><input type="checkbox" autocomplete="off" onchange="(function(e){ $debug.region = e.checked })(this)"> Show region.</label>
+		<label><input type="checkbox" autocomplete="off" onchange="(function(e){ $debug.tileInformation = e.checked })(this)"> Show tileInformation</label>
+		<label><input type="checkbox" autocomplete="off" onchange="(function(e){ $debug.entityCoords = e.checked })(this)"> Show entityCoords.</label>
+		<label><input type="checkbox" autocomplete="off" onchange="(function(e){ $debug.entityId = e.checked })(this)"> Show entityId.</label>
+		<label><input type="checkbox" autocomplete="off" onchange="(function(e){ $debug.entityZ = e.checked })(this)"> Show entityZ.</label>
+		<label><input type="checkbox" autocomplete="off" onchange="(function(e){ $debug.unitAngle = e.checked })(this)"> Show unitAngle.</label>
+		<label><input type="checkbox" autocomplete="off" onchange="(function(e){ $debug.unitPath = e.checked })(this)"> Show unitPath</label>
+		<label><input type="checkbox" autocomplete="off" onchange="(function(e){ $debug.raytrace = e.checked })(this)"> Show raytrace.</label>
+		<label><input type="checkbox" autocomplete="off" onchange="(function(e){ $debug.natureLimit = e.checked })(this)"> Show natureLimit.</label>
+		<label><input type="checkbox" autocomplete="off" onchange="(function(e){ $debug.buildingRegion = e.checked })(this)"> Show buildingRegion.</label>
 	</div>
+
     <canvas id='screen' width='0' height='0'></canvas>
 </body>
 </html>

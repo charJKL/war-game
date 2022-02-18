@@ -11,14 +11,19 @@ h1
 {
 	margin: 0px;
 }
+p
+{
+	margin: 0px;
+}
 .help
 {
 	position: fixed;
-	top: 10px; left: 10px;
+	top: 10px; right: 10px;
 	z-index: 1;
 	background: rgba(0,0,0,.5);
 	padding: 20px;
 	color: #fff;
+	width: 250px;
 }
 .right-button
 {
@@ -57,4 +62,8 @@ h1
 	top:0px; left: 0px;
 	width: 10px;
 	height: 13px;
+}
+label
+{
+	display:block;
 }
