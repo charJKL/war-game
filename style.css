@@ -7,3 +7,54 @@ html{
     padding: 0px;
     border: 0px;
 }
+h1
+{
+	margin: 0px;
+}
+.help
+{
+	position: fixed;
+	top: 10px; left: 10px;
+	z-index: 1;
+	background: rgba(0,0,0,.5);
+	padding: 20px;
+	color: #fff;
+}
+.right-button
+{
+	position: relative;
+	width: 20px;
+	height: 30px;
+	display: inline-block;
+	border: solid 1px #eee;
+	border-radius: 20px;
+	overflow: hidden;
+}
+.right-button::after
+{
+	content: " ";
+	background: red;
+	position: absolute;
+	top:0px; right: 0px;
+	width: 10px;
+	height: 13px;
+}
+.left-button
+{
+	position: relative;
+	width: 20px;
+	height: 30px;
+	display: inline-block;
+	border: solid 1px #eee;
+	border-radius: 20px;
+	overflow: hidden;
+}
+.left-button::after
+{
+	content: " ";
+	background: red;
+	position: absolute;
+	top:0px; left: 0px;
+	width: 10px;
+	height: 13px;
+}
