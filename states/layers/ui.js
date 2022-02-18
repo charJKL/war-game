@@ -60,3 +60,12 @@ Ui.prototype.handleDown = function(e){
         }
     }
 }
+
+Ui.prototype.handleHover = function(e){
+    for(var i=0; i < this.buttons.length; i++){
+        if( this.buttons[i].wasClicked(e.x,e.y) ){
+            this.cursor("pointer");
+            e.handled = true;
+        }
+    }
+}

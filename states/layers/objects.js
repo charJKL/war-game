@@ -73,6 +73,21 @@ Objects.prototype.handleDown = function(e){
     }
 }
 
+Objects.prototype.handleHover = function(e)
+{
+	var worldX = e.x + this.camera.x;
+	var worldY = e.y + this.camera.y;
+	for( let i= this.entities.length-1 ; i>=0 ; i--)
+	{
+		if( this.entities[i].wasClicked(worldX,worldY) )
+		{
+			e.handled = true;
+         this.cursor("pointer");
+			return;
+        }
+    }
+}
+
 Objects.prototype.markDirty = function(){
     this.dirty = true;
 }

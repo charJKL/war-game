@@ -134,6 +134,14 @@ Gameplay.prototype.handleMove = function(e){
     }
 }
 
+Gameplay.prototype.handleHover = function(e){
+    for(let i=this.layers.length-1; i>=0 ; i-- ){
+		 if(e.handled) return;
+      this.layers[i].handleHover(e);
+    }
+	this.cursor("default");
+}
+
 Gameplay.prototype.handleKeyboard = function(e){
     switch (e.key) {
         case "Escape":
