@@ -44,6 +44,19 @@ Main.prototype.draw = function(){
 
 }
 
+Main.prototype.handleHover = function(e)
+{
+	for(let i=this.levels.length-1 ; i >= 0; i--)
+	{
+		if ( this.levels[i].wasClicked(e.x,e.y) )
+		{
+			this.cursor("pointer");
+			return;
+		}
+	}
+	this.cursor("default");
+}
+
 Main.prototype.handleDown = function(e){
     for(let i=this.levels.length-1 ; i >= 0; i--){
         if ( this.levels[i].wasClicked(e.x,e.y) ){
