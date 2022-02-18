@@ -5,6 +5,9 @@
 War Game is **RTS-game** entire written in JavaScript, without any libraries. Project was created to school.
 File [projekt-strategicznej-gry-komputerowej.pdf](./projekt-strategicznej-gry-komputerowej.pdf) contains cool presentation (in polish), don't forget to look.
 
+## Live:
+You play on [https://pwsz-wargame.netlify.app/start.html](https://pwsz-wargame.netlify.app/start.html) 
+
 ## Installation
 Copy files to local disc and start with [start.html](./start.html). Enjoy the game.
 
@@ -13,6 +16,9 @@ Before you start I want point out important notes:
 * UI is terrible, because there isn't any.
 * There is not tutorial or guide, so you may feel lost.
 * Before this game you should end Dark Souls 1 first, then it will become like walk in the park.
+
+
+
 
 ## Printscreen
 <img src="./img/screen1.jpg" />
