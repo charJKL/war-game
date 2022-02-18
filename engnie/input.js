@@ -7,6 +7,7 @@ function Input(DOM){
     DOM.addEventListener('mousedown',this.captureDown.bind(this),false);
     DOM.addEventListener('mouseup',this.captureUp.bind(this),false);
     DOM.addEventListener('mousemove',this.captureMove.bind(this),false);
+	 DOM.addEventListener('mousemove',this.captureHover.bind(this),false);
     DOM.addEventListener('mouseout',this.captureLost.bind(this),false);
     DOM.addEventListener('keydown',this.caputeKeyboard.bind(this),false);
 }
@@ -42,6 +43,11 @@ Input.prototype.captureMove = function(e){
         $game.emitMove(this.decorate(e));
         this.last = {x:e.pageX,  y:e.pageY};
     }
+}
+
+Input.prototype.captureHover = function(e)
+{
+	$game.emitHover(e);
 }
 
 Input.prototype.captureUp = function(e){

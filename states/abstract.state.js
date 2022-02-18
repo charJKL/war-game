@@ -11,6 +11,11 @@ State.prototype.init = function(){
     // Shoud be override
 }
 
+State.prototype.cursor = function(cursor) 
+{
+	document.body.style.cursor = cursor;
+}
+
 State.prototype.update = function(){
     // Shoud be override
 }
@@ -28,6 +33,10 @@ State.prototype.handleUp = function(e){
 }
 
 State.prototype.handleMove = function(e){
+    // Shoud be override
+}
+
+State.prototype.handleHover = function(e){
     // Shoud be override
 }
 

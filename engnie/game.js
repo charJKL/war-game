@@ -56,6 +56,10 @@ Game.prototype.emitMove = function(e){
     this.state.handleMove(e);
 }
 
+Game.prototype.emitHover = function(e){
+    this.state.handleHover(e);
+}
+
 Game.prototype.emitKeyboard = function(e){
     this.state.handleKeyboard(e);
 }

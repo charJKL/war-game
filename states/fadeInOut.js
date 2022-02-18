@@ -30,6 +30,10 @@ FadeInOut.prototype.handleMove = function(e){
     this.state.handleMove(e);
 }
 
+FadeInOut.prototype.handleHover = function(e){
+    this.state.handleHover(e);
+}
+
 FadeInOut.prototype.handleUp = function(e){
     this.state.handleUp(e);
 }
